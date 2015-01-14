@@ -1,5 +1,6 @@
 package Vjezbe;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -26,5 +27,7 @@ public class TestClass {
 		Iterator<Integer> benjo2 = list.iterator();
 		while(benjo2.hasNext())
 			System.out.println(benjo2.next());
+	
+	
 	}
 }	
